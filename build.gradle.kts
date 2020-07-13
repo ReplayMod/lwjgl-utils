@@ -40,3 +40,6 @@ publishing {
         }
     }
 }
+
+// Cause JitPack is stubborn
+tasks.create("clean")
